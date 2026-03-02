@@ -1,0 +1,1 @@
+This is boilerplate for developing apps on joonweb. This boilerplater is successfully running on joonewb server with authenctication. 
