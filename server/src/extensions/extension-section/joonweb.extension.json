@@ -1,0 +1,20 @@
+{
+  "name": "reels-section",
+  "version": "1.0.0",
+  "type": "theme_app_extension",
+  "blocks": [
+    {
+      "type": "app_embed",
+      "name": "Last Sold",
+      "target": "section",
+      "src": "blocks/lastSold-section-block.jw"
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/lastSold-widget.js",
+      "type": "js"
+    }
+  ],
+  "uid": ""
+}

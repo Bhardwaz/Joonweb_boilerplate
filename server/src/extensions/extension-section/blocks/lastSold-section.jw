@@ -1,0 +1,26 @@
+<div 
+  class="joon-web-widget"
+  data-widget-id=""
+  data-page-type="home" 
+  data-product-id=""
+  data-site="{{site.url}}.myjoonweb.com"
+  data-type="section"
+  style="min-height: 50px; width: 100%;"
+>
+
+  <style>
+    .jw-placeholder { text-align: center; padding: 20px; color: #999; }
+  </style>
+  <div class="jw-placeholder">
+    Loading last sold
+  </div>
+</div>
+
+<script src="https://means-raises-odds-functionality.trycloudflare.com/extensions/reels-section/assets/lastSold-section.js"></script>
+
+<style>
+  .joon-web-widget {
+    padding-top: {{ block.settings.padding_top }}px;
+    padding-bottom: {{ block.settings.padding_bottom }}px;
+  }
+</style>
